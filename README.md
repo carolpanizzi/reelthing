@@ -1,6 +1,6 @@
 # reelthing
 
-A personal movie and TV journal in English. Track what you watched, when you watched it, your rating, notes, genre, runtime, and creator. New users start with an empty library and can import their own Letterboxd export. Library changes are stored in the browser on the user's device.
+A personal movie and TV journal. Track what you watched, when you watched it, your rating, notes, genre, runtime, and creator. New users start with an empty library and can import their own Letterboxd export. Library changes are stored in the browser on the user's device.
 
 ## Run locally
 
