@@ -17,6 +17,8 @@ In Letterboxd, visit **Settings → Import & Export → Export Your Data** and d
 
 The importer uses the diary's `Watched Date` when available and falls back to `Date` from `watched.csv` for other watched titles. The supplied personal archive file is excluded from Git by `.gitignore` and is not bundled into the app.
 
+For a quick demo, the [`examples/letterboxd`](examples/letterboxd) folder contains sample Letterboxd CSVs using real film titles. The watch dates, ratings, and review text are fictional and included only to demonstrate importing. Select any or all of the CSV files in the Import dialog.
+
 ## Movie metadata
 
 Open the gear menu, add a TMDB API key, and select **Fetch movie and series metadata**. Each entry's type selects the matching TMDB movie or TV endpoint. TMDB fills in posters, backdrops, synopsis, genre, runtime or seasons, director or creators, cast, and TMDB ratings; results are cached in your local library. To add IMDb ratings too, optionally provide an OMDb API key. Keys are stored in this browser only. TMDB requires attribution; the app includes its logo and required notice in the library settings.
